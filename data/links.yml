@@ -13,11 +13,13 @@
       url: https://space.bilibili.com/97480642
     - title: Youtube
       url: https://www.youtube.com/channel/UCGlgW9t0HnKDlkcS1dH7X3g
+    - title: Wails中文网
+      url: http://wails.top/
 
 - group: 知识检索
   items:
     - title: 知乎
-      url: https://www.github.com
+      url: https://www.zhihu.com/
       # icon: fab fa-github
     - title: 掘金
       url: https://juejin.cn/
@@ -26,11 +28,11 @@
     - title: 全栈爱好者
       url: https://www.fullstacklover.com/
 
-- group: 影音娱乐
+- group: 文档站点
   items:
-    - title: 腾讯视频
-      url: https://v.qq.com
-    - title: 优酷
-      url: https://www.youku.com/
+    - title: Vite中文网
+      url: https://cn.vitejs.dev/
+    - title: Vitepress
+      url: https://vitepress.vuejs.org/
     - title: 爱奇艺
       url: https://www.iqiyi.com/

@@ -1,25 +1,43 @@
 baseURL = ""
-languageCode = "en-us"
+languageCode = "zh-CN"
 title = "米司导航"
 theme = "startpage"
 
+copyright = "米司特包"
+enableRobotsTXT = true
+pygmentsCodeFences = true
+canonifyurls = true
+paginate = 5
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+# [permalinks]
+#     posts = "/:year/:month/:slug/"
+#     post = "/:year/:month/:slug/"
+#     pages = "/:slug/"
+#     page = "/:slug/"
+
+[Author]  
+  name = "米司特包"
 
 [params]
-welcomeText = "欢迎到来！"
+welcomeText = "米司导航"
 startPageColumns = true
-description = "Text about the site"
+description = "米司导航"
 
   [[params.searchEngines]]
-  name = "Google"
+  name = "谷歌搜索"
   activated = true
   url = "https://www.google.com/search"
 
   [[params.searchEngines]]
-  name = "Bing"
+  name = "必应搜索"
   activated = true
   url = "https://www.bing.com/search"
 
   [[params.searchEngines]]
-  name = "Baidu"
+  name = "百度搜索"
   activated = true
   url = "https://baidu.com/s"
