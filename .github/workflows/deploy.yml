@@ -10,8 +10,9 @@ jobs:
     if: github.repository == 'misitebao/misitebao'
     steps:
       - name: Checkout | 切换到部署分支
-        uses: actions/checkout@hugo_pages
+        uses: actions/checkout@v2
         with:
+          ref: hugo_pages
           submodules: true
           fetch-depth: 0
       - name: Setup Hugo | 设置Hugo环境
