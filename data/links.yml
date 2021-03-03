@@ -1,0 +1,36 @@
+---
+- group: 我的网站
+  items:
+    - title: 米司博客
+      url: https://blog.misitebao.com
+      # icon: fab fa-reddit
+    - title: Github
+      url: https://github.com/misitebao
+      # icon: fab fa-facebook
+    - title: TigaTeam
+      url: https://github.com/tigateam
+    - title: 哔哩哔哩
+      url: https://space.bilibili.com/97480642
+    - title: Youtube
+      url: https://www.youtube.com/channel/UCGlgW9t0HnKDlkcS1dH7X3g
+
+- group: 知识检索
+  items:
+    - title: 知乎
+      url: https://www.github.com
+      # icon: fab fa-github
+    - title: 掘金
+      url: https://juejin.cn/
+    - title: CSDN
+      url: https://www.csdn.net/
+    - title: 全栈爱好者
+      url: https://www.fullstacklover.com/
+
+- group: 影音娱乐
+  items:
+    - title: 腾讯视频
+      url: https://v.qq.com
+    - title: 优酷
+      url: https://www.youku.com/
+    - title: 爱奇艺
+      url: https://www.iqiyi.com/

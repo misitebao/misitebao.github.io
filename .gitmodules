@@ -1,0 +1,4 @@
+[submodule "themes/startpage"]
+	path = themes/startpage
+	url = https://github.com/misitebao/bootstrap-bp-hugo-startpage.git
+	branch = master

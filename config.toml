@@ -1,3 +1,25 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "米司导航"
+theme = "startpage"
+
+
+[params]
+welcomeText = "欢迎到来！"
+startPageColumns = true
+description = "Text about the site"
+
+  [[params.searchEngines]]
+  name = "Google"
+  activated = true
+  url = "https://www.google.com/search"
+
+  [[params.searchEngines]]
+  name = "Bing"
+  activated = true
+  url = "https://www.bing.com/search"
+
+  [[params.searchEngines]]
+  name = "Baidu"
+  activated = true
+  url = "https://baidu.com/s"
